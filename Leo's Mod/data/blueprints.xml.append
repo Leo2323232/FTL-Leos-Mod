@@ -2573,7 +2573,7 @@
 	<tip>tip_boarding</tip>
 	<title>Boarding Drone</title>
 	<short>Boarding</short>
-	<desc>Breaches through the enemy hull and wreaks havoc. Awesome.</desc>
+	<desc>Boss boarding drone, if you can read this there's a bug.</desc>
 	<power>2</power>
 	<speed>18</speed>
 	<cost>70</cost>
