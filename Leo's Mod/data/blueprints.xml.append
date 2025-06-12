@@ -2542,7 +2542,7 @@
 	<iconImage>battle</iconImage>
 </droneBlueprint>
 
-<droneBlueprint name="BOARDER_ENEMY">
+<droneBlueprint name="BOARDER_ENEMY" NOLOC="1">
 	<type>BOARDER</type>
 	<tip>tip_boarding</tip>
 	<title id="drone_BOARDER_title"/>
@@ -3476,13 +3476,13 @@
 	<desc id="ship_PLAYER_SHIP_ENGI_2_desc"/>
 	<systemList>
 		<pilot power="3" room="13" start="true"/>
-		<doors power="1" room="8" start="true">
+		<doors power="2" room="8" start="true">
 			<slot>
 				<direction>up</direction>
 				<number>1</number>
 			</slot>
 		</doors>
-		<sensors power="1" room="2" start="false">  <!--F-->
+		<sensors power="1" room="2" start="true">  <!--F-->
 			<slot>
 				<direction>down</direction>
 				<number>1</number>
