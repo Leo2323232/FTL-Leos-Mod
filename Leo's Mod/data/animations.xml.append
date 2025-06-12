@@ -1,0 +1,11 @@
+<!--Provided by Mike Hopley-->
+<?xml version="1.0" encoding="utf-8"?>
+<FTL>
+
+<mod:findName type="weaponAnim" name="beam_hull">
+	<mod:findLike type="desc">
+		<mod:setAttributes length="7"/>
+	</mod:findLike>
+</mod:findName>
+
+</FTL>
