@@ -1618,7 +1618,7 @@ Overwritten player ships!
 				<number>0</number>
 			</slot>
 		</doors>
-		<sensors power="1" room="13" start="true" img="room_sensors_2">
+		<sensors power="2" room="13" start="true" img="room_sensors_2">
 			<slot>
 				<direction>up</direction>
 				<number>0</number>
@@ -1632,8 +1632,8 @@ Overwritten player ships!
 			</slot>
 		</engines>
 		<shields power="2" room="8" start="true" img="room_shields_4"/>
-		<weapons power="1" room="6" start="true"/>
-		<drones power="2" room="7" start="true" img="room_drones_9"/>
+		<weapons power="2" room="6" start="true"/>
+		<drones power="3" room="7" start="true" img="room_drones_9"/>
 		<medbay power="1" room="11" start="false" img="room_medbay_9">  <!-- F-->
 			<slot>
 				<number>-2</number>
@@ -1653,18 +1653,20 @@ Overwritten player ships!
 	</systemList>
 	<weaponSlots>3</weaponSlots>
 	<droneSlots>3</droneSlots>
-	<weaponList count="2" missiles="0">
+	<weaponList count="2" missiles="20">
 		<weapon name="LASER_BURST_1"/>
 		<weapon name="BOMB_STUN"/>
 	</weaponList>
-	<droneList count="1" drones="25">
+	<droneList count="2" drones="20">
 		<drone name="COMBAT_FIRE"/>
+		<drone name="DEFENSE_2"/>
 	</droneList>
 	<health amount="30"/>
 	<maxPower amount ="9"/>
 	<crewCount amount = "1" class="slug"/>
 	<crewCount amount = "2" class="engi"/>
 	<aug name="FTL_JAMMER"/>
+	<aug name="DRONE_RECOVERY"/>
 	<shieldImage>circle_cruiser</shieldImage>
 	<cloakImage>circle_cruiser</cloakImage>
 	<floorImage>circle_cruiser</floorImage>

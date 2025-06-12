@@ -3070,7 +3070,7 @@
 				<number>1</number>
 			</slot>
 		</doors>
-		<sensors power="1" room="17" start="false"><!-- F-->
+		<sensors power="1" room="17" start="true"><!-- F-->
 			<slot>
 				<direction>down</direction>
 				<number>1</number>
