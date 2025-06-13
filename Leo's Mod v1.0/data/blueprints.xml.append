@@ -3795,12 +3795,12 @@
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
-	<weaponList count="3" missiles="25">
+	<weaponList count="3" missiles="10">
 		<weapon name="BEAM_FIRE"/>
 		<weapon name="ION_STUN"/>
 		<weapon name="LASER_BURST_1"/>
 	</weaponList>
-	<droneList drones="0"/>
+	<droneList drones="5"/>
 	<aug name="SLUG_GEL"/>
 	<health amount="30"/>
 	<maxPower amount ="8"/>
@@ -3914,7 +3914,7 @@
 				<number>0</number>
 			</slot>
 		</doors>
-		<sensors power="1" room="3" start="true" img="room_sensors_6">
+		<sensors power="2" room="3" start="true" img="room_sensors_6">
 			<slot>
 				<direction>right</direction>
 				<number>1</number>
@@ -3923,7 +3923,7 @@
 		<oxygen power="2" room="4" start="true" img="room_oxygen_6"/>
 		<engines power="2" room="0" start="true" img="room_engines_2"/>
 		<shields power="2" room="2" start="true" img="room_shields_4"/>
-		<weapons power="3" room="12" start="true"/>
+		<weapons power="2" room="12" start="true"/>
 		<drones power="2" room="14" start="false" img="room_drones_9"/>     <!--F-->
 		<medbay power="1" room="1" start="true"/>
 		<clonebay power="1" room="1" start="false"/>     <!--F-->
